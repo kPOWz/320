@@ -1,6 +1,6 @@
 {
   "name": "bootstrap",
-  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+  "description": "GUS customization of the most popular front-end framework for developing responsive, mobile first projects on the web.",
   "version": "3.2.0",
   "keywords": [
     "css",
@@ -11,23 +11,23 @@
     "framework",
     "web"
   ],
-  "homepage": "http://getbootstrap.com",
+  "homepage": "http://kpowz.github.io/gus-sg",
   "author": "Twitter, Inc.",
   "scripts": {
     "test": "grunt test"
   },
   "style": "dist/css/bootstrap.css",
-  "less": "less/bootstrap.less",
+  "less": "less/gus/gus.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/twbs/bootstrap.git"
+    "url": "https://github.com/kpowz/gus-bootstrap.git"
   },
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap/issues"
+    "url": "https://github.com/kpowz/gus-bootstrap/issues"
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/twbs/bootstrap/blob/master/LICENSE"
+    "url": "https://github.com/kpowz/gus-bootstrap/blob/master/LICENSE"
   },
   "devDependencies": {
     "btoa": "~1.1.2",

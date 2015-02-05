@@ -1,6 +1,6 @@
 {
-  "name": "twbs/bootstrap",
-  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+  "name": "kpowz/gus-bootstrap",
+  "description": "GUS customization of the most popular front-end framework for developing responsive, mobile first projects on the web.",
   "keywords": [
     "css",
     "js",
@@ -11,7 +11,7 @@
     "framework",
     "web"
   ],
-  "homepage": "http://getbootstrap.com",
+  "homepage": "http://kpowz.github.io/gus-sg",
   "authors": [
     {
       "name": "Mark Otto",
@@ -23,15 +23,12 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/twbs/bootstrap/issues"
+    "issues": "https://github.com/kpowz/gus-bootstrap/issues"
   },
   "license": "MIT",
   "extra": {
     "branch-alias": {
       "dev-master": "3.2.x-dev"
     }
-  },
-  "replace": {
-    "twitter/bootstrap": "self.version"
   }
 }

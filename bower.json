@@ -1,6 +1,6 @@
 {
-  "name": "bootstrap",
-  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+  "name": "gus-bootstrap",
+  "description": "GUS customization of the most popular front-end framework for developing responsive, mobile first projects on the web.",
   "version": "3.2.0",
   "keywords": [
     "css",
@@ -12,7 +12,7 @@
     "framework",
     "web"
   ],
-  "homepage": "http://getbootstrap.com",
+  "homepage": "http://kpowz.github.io/gus-sg",
   "main": [
     "less/bootstrap.less",
     "dist/css/bootstrap.css",
