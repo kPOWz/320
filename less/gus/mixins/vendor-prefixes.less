@@ -1,0 +1,7 @@
+
+// Placeholder text alignment
+.placeholder-align(@text-alignment) {
+  *::-moz-placeholder           { text-align: @text-alignment; }
+  *:-ms-input-placeholder       { text-align: @text-alignment;  } // Internet Explorer 10+
+  *::-webkit-input-placeholder  { text-align: @text-alignment; } // Safari and Chrome
+}

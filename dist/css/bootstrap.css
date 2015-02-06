@@ -1,7 +1,7 @@
 /*!
- * Bootstrap v3.2.0 (http://getbootstrap.com)
+ * Bootstrap v3.2.0 (http://kpowz.github.io/gus-sg)
  * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/kpowz/gus-bootstrap/blob/master/LICENSE)
  */
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
@@ -6199,5 +6199,19 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+form.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+form.center-block *::-moz-placeholder {
+  text-align: center;
+}
+form.center-block *:-ms-input-placeholder {
+  text-align: center;
+}
+form.center-block *::-webkit-input-placeholder {
+  text-align: center;
 }
 /*# sourceMappingURL=bootstrap.css.map */
