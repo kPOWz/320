@@ -11,7 +11,7 @@
     "framework",
     "web"
   ],
-  "homepage": "http://kpowz.github.io/gus-sg",
+  "homepage": "http://kpowz.github.io/gus-bootstrap",
   "author": "Twitter, Inc.",
   "scripts": {
     "test": "grunt test"

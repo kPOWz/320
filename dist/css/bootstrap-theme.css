@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v3.2.0 (http://kpowz.github.io/gus-sg)
+ * Bootstrap v3.2.0 (http://kpowz.github.io/gus-bootstrap)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/kpowz/gus-bootstrap/blob/master/LICENSE)
  */
