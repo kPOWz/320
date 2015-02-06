@@ -6240,7 +6240,7 @@ body {
 }
 body.inverse {
   color: #fff;
-  background-color: #293442;
+  background-color: #1a1f26;
 }
 .btn-inverse {
   color: #fff;
@@ -6282,6 +6282,47 @@ fieldset[disabled] .btn-inverse.active {
 .btn-inverse .badge {
   color: #293442;
   background-color: #fff;
+}
+.btn-inverse.text-primary {
+  color: #09f;
+  background-color: #293442;
+  border-color: #1f2832;
+}
+.btn-inverse.text-primary:hover,
+.btn-inverse.text-primary:focus,
+.btn-inverse.text-primary:active,
+.btn-inverse.text-primary.active,
+.open > .dropdown-toggle.btn-inverse.text-primary {
+  color: #09f;
+  background-color: #151b23;
+  border-color: #080a0d;
+}
+.btn-inverse.text-primary:active,
+.btn-inverse.text-primary.active,
+.open > .dropdown-toggle.btn-inverse.text-primary {
+  background-image: none;
+}
+.btn-inverse.text-primary.disabled,
+.btn-inverse.text-primary[disabled],
+fieldset[disabled] .btn-inverse.text-primary,
+.btn-inverse.text-primary.disabled:hover,
+.btn-inverse.text-primary[disabled]:hover,
+fieldset[disabled] .btn-inverse.text-primary:hover,
+.btn-inverse.text-primary.disabled:focus,
+.btn-inverse.text-primary[disabled]:focus,
+fieldset[disabled] .btn-inverse.text-primary:focus,
+.btn-inverse.text-primary.disabled:active,
+.btn-inverse.text-primary[disabled]:active,
+fieldset[disabled] .btn-inverse.text-primary:active,
+.btn-inverse.text-primary.disabled.active,
+.btn-inverse.text-primary[disabled].active,
+fieldset[disabled] .btn-inverse.text-primary.active {
+  background-color: #293442;
+  border-color: #1f2832;
+}
+.btn-inverse.text-primary .badge {
+  color: #293442;
+  background-color: #09f;
 }
 form.center-block {
   display: block;
