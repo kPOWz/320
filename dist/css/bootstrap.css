@@ -6242,6 +6242,25 @@ body.inverse {
   color: #fff;
   background-color: #1a1f26;
 }
+/*
+*  characteristics for inputs under an inverse layout
+*
+*/
+.inverse input[type="text"] {
+  color: #fff;
+  background-color: #1a1f26;
+  border-color: #293442;
+}
+.inverse input[type="text"]::-moz-placeholder {
+  color: #09f;
+  opacity: 1;
+}
+.inverse input[type="text"]:-ms-input-placeholder {
+  color: #09f;
+}
+.inverse input[type="text"]::-webkit-input-placeholder {
+  color: #09f;
+}
 .btn-inverse {
   color: #fff;
   background-color: #293442;
