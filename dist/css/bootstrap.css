@@ -5958,6 +5958,9 @@ button.close {
   margin-right: auto;
   margin-left: auto;
 }
+.center-block[class*="col-"] {
+  float: none;
+}
 .pull-right {
   float: right !important;
 }
@@ -6242,6 +6245,9 @@ body.inverse {
   color: #fff;
   background-color: #1a1f26;
 }
+.center-block[class*="col-"] {
+  float: none;
+}
 /*
 *  characteristics for inputs under an inverse layout
 *
@@ -6347,6 +6353,12 @@ form.center-block {
   display: block;
   margin-right: auto;
   margin-left: auto;
+}
+form.center-block[class*="col-"] {
+  float: none;
+}
+form.center-block[class*="col-"] {
+  float: none;
 }
 form.center-block *::-moz-placeholder {
   text-align: center;
