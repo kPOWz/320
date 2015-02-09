@@ -6252,19 +6252,27 @@ body.inverse {
 *  characteristics for inputs under an inverse layout
 *
 */
-.inverse input[type="text"] {
+.inverse input[type="text"],
+.inverse input[type="password"],
+.inverse input[type="email"] {
   color: #fff;
   background-color: #1a1f26;
   border-color: #293442;
 }
-.inverse input[type="text"]::-moz-placeholder {
+.inverse input[type="text"]::-moz-placeholder,
+.inverse input[type="password"]::-moz-placeholder,
+.inverse input[type="email"]::-moz-placeholder {
   color: #09f;
   opacity: 1;
 }
-.inverse input[type="text"]:-ms-input-placeholder {
+.inverse input[type="text"]:-ms-input-placeholder,
+.inverse input[type="password"]:-ms-input-placeholder,
+.inverse input[type="email"]:-ms-input-placeholder {
   color: #09f;
 }
-.inverse input[type="text"]::-webkit-input-placeholder {
+.inverse input[type="text"]::-webkit-input-placeholder,
+.inverse input[type="password"]::-webkit-input-placeholder,
+.inverse input[type="email"]::-webkit-input-placeholder {
   color: #09f;
 }
 .btn-inverse {
