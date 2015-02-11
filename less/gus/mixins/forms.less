@@ -4,3 +4,55 @@
   border-color: @border;
   .placeholder(@brand-primary);
 }
+
+// Custom checkbox
+//
+// Requires checkbox type input with sibling label having the 'for' attribute
+// Relies on TWBS label display setting of 'display: inline-block;'
+// The label appears as the checkbox, while the real/orginal checkbox isn't displayed
+// Unicode is used for checkmark representation
+// do a small, medium , lrg variant ....
+
+.input-checkbox-variant(@color; @background; @border) {
+	input[type='checkbox']{display: none;}
+	label{
+		padding-left: 0;  /* overrides TWBS default */
+	    vertical-align: middle;   
+	}
+	input[type='checkbox'] + label{
+		height: @font-size-base; 
+	    width: @font-size-base; 
+	    border: 1px solid @border;
+	    background: @background;
+	}
+	input[type='checkbox'].input-sm + label{
+		height: @font-size-small;
+		width: @font-size-small;
+	}
+	input[type='checkbox'].input-lg + label{
+		height: @font-size-large;
+		width: @font-size-large;
+	}
+	input[type='checkbox'] + label::before{
+	 	position: relative;
+	    top: unit(-4, px);
+	    content: "";
+	}
+	input[type='checkbox'].input-sm + label::before{
+		top: unit(-6, px);
+	}
+	input[type='checkbox'].input-lg + label::before{
+		top: unit(-5, px);
+	}
+	input[type='checkbox']:checked + label::before{
+		color: @color;
+	    font-size: @font-size-base;
+	    content: "\2713";
+	}
+	input[type='checkbox'].input-sm:checked + label::before{
+		font-size: @font-size-small;
+	}
+	input[type='checkbox'].input-lg:checked + label::before{
+		font-size: @font-size-large;
+	}
+}

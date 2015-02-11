@@ -1,11 +1,16 @@
 
 
 /*
-*  characteristics for inputs under an inverse layout
+* characteristics of inputs under an inverse layout
+* 
 *
 */
 .inverse input[type="text"],
 .inverse input[type="password"],
 .inverse input[type="email"]{
 	.input-variant(@text-color-inverse; @body-bg-inverse; @brand-inverse; @brand-primary);
+}
+
+.inverse .checkbox{
+	.input-checkbox-variant(@text-color-inverse; @body-bg-inverse; @brand-inverse);
 }

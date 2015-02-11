@@ -2748,7 +2748,7 @@ select[multiple].input-lg {
 }
 .btn:hover,
 .btn:focus {
-  color: #333;
+  color: #1a1f26;
   text-decoration: none;
 }
 .btn:active,
@@ -2769,18 +2769,18 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
-  color: #333;
+  color: #1a1f26;
   background-color: #fff;
-  border-color: #ccc;
+  border-color: #e3e7ed;
 }
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #333;
+  color: #1a1f26;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  border-color: #bdc8d6;
 }
 .btn-default:active,
 .btn-default.active,
@@ -2803,11 +2803,11 @@ fieldset[disabled] .btn-default:active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
   background-color: #fff;
-  border-color: #ccc;
+  border-color: #e3e7ed;
 }
 .btn-default .badge {
   color: #fff;
-  background-color: #333;
+  background-color: #1a1f26;
 }
 .btn-primary {
   color: #fff;
@@ -6249,7 +6249,8 @@ body.inverse {
   float: none;
 }
 /*
-*  characteristics for inputs under an inverse layout
+* characteristics of inputs under an inverse layout
+* 
 *
 */
 .inverse input[type="text"],
@@ -6274,6 +6275,50 @@ body.inverse {
 .inverse input[type="password"]::-webkit-input-placeholder,
 .inverse input[type="email"]::-webkit-input-placeholder {
   color: #09f;
+}
+.inverse .checkbox input[type='checkbox'] {
+  display: none;
+}
+.inverse .checkbox label {
+  padding-left: 0;
+  /* overrides TWBS default */
+  vertical-align: middle;
+}
+.inverse .checkbox input[type='checkbox'] + label {
+  width: 14px;
+  height: 14px;
+  background: #1a1f26;
+  border: 1px solid #293442;
+}
+.inverse .checkbox input[type='checkbox'].input-sm + label {
+  width: 12px;
+  height: 12px;
+}
+.inverse .checkbox input[type='checkbox'].input-lg + label {
+  width: 18px;
+  height: 18px;
+}
+.inverse .checkbox input[type='checkbox'] + label::before {
+  position: relative;
+  top: -4px;
+  content: "";
+}
+.inverse .checkbox input[type='checkbox'].input-sm + label::before {
+  top: -6px;
+}
+.inverse .checkbox input[type='checkbox'].input-lg + label::before {
+  top: -5px;
+}
+.inverse .checkbox input[type='checkbox']:checked + label::before {
+  font-size: 14px;
+  color: #fff;
+  content: "\2713";
+}
+.inverse .checkbox input[type='checkbox'].input-sm:checked + label::before {
+  font-size: 12px;
+}
+.inverse .checkbox input[type='checkbox'].input-lg:checked + label::before {
+  font-size: 18px;
 }
 .btn-inverse {
   color: #fff;
