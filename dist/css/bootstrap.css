@@ -6241,7 +6241,7 @@ body {
   color: #1a1f26;
   background-color: #fff;
 }
-body.inverse {
+.inverse {
   color: #fff;
   background-color: #1a1f26;
 }
