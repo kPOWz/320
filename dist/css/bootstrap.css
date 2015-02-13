@@ -6402,6 +6402,30 @@ fieldset[disabled] .btn-inverse.text-primary.active {
   color: #293442;
   background-color: #09f;
 }
+.navbar-vertical .navbar-nav,
+.navbar-vertical .navbar-nav > li,
+.navbar-vertical .navbar-left,
+.navbar-vertical .navbar-right,
+.navbar-vertical .navbar-header {
+  float: none !important;
+}
+.navbar-vertical.navbar {
+  margin-right: 0;
+  margin-left: 0;
+}
+.inverse nav li {
+  background-color: #293442;
+  border-bottom: 1px solid #1a1f26;
+}
+.inverse nav li:first-child {
+  border-top: 1px solid #1a1f26;
+}
+.inverse .navbar li.active {
+  border-right: 4px solid #09f;
+}
+.inverse .navbar a {
+  color: #fff;
+}
 form.center-block {
   display: block;
   margin-right: auto;

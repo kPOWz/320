@@ -1,0 +1,30 @@
+
+.navbar-vertical{
+	.navbar-nav,
+	.navbar-nav > li,
+	.navbar-left,
+	.navbar-right,
+	.navbar-header{
+	    float: none !important;
+	}
+
+	&.navbar{
+	    margin-right: 0;
+	    margin-left: 0;
+	}
+}
+
+.inverse{
+	nav li{
+	    border-bottom: 1px solid @body-bg-inverse;
+	    &:first-child{
+	    	border-top: 1px solid @body-bg-inverse;
+	    }
+	    background-color: @gray;
+	}
+	.navbar {
+		li.active{
+			border-right: 4px solid @brand-primary;}
+		a{color: @text-color-inverse;}
+	}
+}
