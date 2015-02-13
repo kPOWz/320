@@ -6402,6 +6402,10 @@ fieldset[disabled] .btn-inverse.text-primary.active {
   color: #293442;
   background-color: #09f;
 }
+.inverse .nav > li > a:hover,
+.inverse .nav > li > a:focus {
+  background-color: #1a1f26;
+}
 .navbar-vertical .navbar-nav,
 .navbar-vertical .navbar-nav > li,
 .navbar-vertical .navbar-left,
@@ -6412,6 +6416,12 @@ fieldset[disabled] .btn-inverse.text-primary.active {
 .navbar-vertical.navbar {
   margin-right: 0;
   margin-left: 0;
+}
+.navbar-vertical .navbar-collapse {
+  height: auto;
+  max-height: none;
+  padding-right: 0;
+  padding-left: 0;
 }
 .inverse nav li {
   background-color: #293442;
