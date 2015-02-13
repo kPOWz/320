@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://kpowz.github.io/gus-bootstrap/</loc>
-    <lastmod>2015-02-11T15:09:40-06:00</lastmod>
+    <lastmod>2015-02-12T20:07:07-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -10,7 +10,7 @@
   
   <url>
     <loc>http://kpowz.github.io/gus-bootstrap/about/</loc>
-    <lastmod>2015-02-11T15:09:40-06:00</lastmod>
+    <lastmod>2015-02-12T20:07:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -19,7 +19,7 @@
   
   <url>
     <loc>http://kpowz.github.io/gus-bootstrap/browser-bugs/</loc>
-    <lastmod>2015-02-11T15:09:40-06:00</lastmod>
+    <lastmod>2015-02-12T20:07:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -28,7 +28,7 @@
   
   <url>
     <loc>http://kpowz.github.io/gus-bootstrap/components/</loc>
-    <lastmod>2015-02-11T15:09:40-06:00</lastmod>
+    <lastmod>2015-02-12T20:07:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -37,7 +37,7 @@
   
   <url>
     <loc>http://kpowz.github.io/gus-bootstrap/css/</loc>
-    <lastmod>2015-02-11T15:09:40-06:00</lastmod>
+    <lastmod>2015-02-12T20:07:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -46,7 +46,7 @@
   
   <url>
     <loc>http://kpowz.github.io/gus-bootstrap/customize/</loc>
-    <lastmod>2015-02-11T15:09:40-06:00</lastmod>
+    <lastmod>2015-02-12T20:07:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -55,7 +55,7 @@
   
   <url>
     <loc>http://kpowz.github.io/gus-bootstrap/getting-started/</loc>
-    <lastmod>2015-02-11T15:09:40-06:00</lastmod>
+    <lastmod>2015-02-12T20:07:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -66,7 +66,7 @@
   
   <url>
     <loc>http://kpowz.github.io/gus-bootstrap/javascript/</loc>
-    <lastmod>2015-02-11T15:09:40-06:00</lastmod>
+    <lastmod>2015-02-12T20:07:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -75,7 +75,7 @@
   
   <url>
     <loc>http://kpowz.github.io/gus-bootstrap/migration/</loc>
-    <lastmod>2015-02-11T15:09:40-06:00</lastmod>
+    <lastmod>2015-02-12T20:07:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
