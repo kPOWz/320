@@ -6272,6 +6272,7 @@ h6.heading-primary,
 .h5.heading-primary,
 .h6.heading-primary {
   color: #09f;
+  text-transform: uppercase;
 }
 .center-block[class*="col-"] {
   float: none;
