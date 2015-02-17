@@ -6277,6 +6277,10 @@ h6.heading-primary,
 .center-block[class*="col-"] {
   float: none;
 }
+.table-primary > thead > tr > th {
+  color: #09f;
+  text-transform: uppercase;
+}
 /*
 * characteristics of inputs under an inverse layout
 * 
