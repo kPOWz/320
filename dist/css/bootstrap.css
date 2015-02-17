@@ -6278,6 +6278,7 @@ h6.heading-primary,
   float: none;
 }
 .table-primary > thead > tr > th {
+  font-family: "Avenir LT W02 95 Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #09f;
   text-transform: uppercase;
 }
