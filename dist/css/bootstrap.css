@@ -6354,6 +6354,16 @@ h6.heading-primary,
 .inverse .checkbox input[type='checkbox'].input-lg:checked + label::before {
   font-size: 18px;
 }
+/*
+ heavy font
+ uppercase
+*/
+.form-group-calculated {
+  font-family: "Avenir LT W02 95 Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.form-group-calculated label {
+  text-transform: uppercase;
+}
 .btn-inverse {
   color: #fff;
   background-color: #293442;
