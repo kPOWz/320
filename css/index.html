@@ -206,6 +206,7 @@
 <span class="k">@media</span> <span class="o">(</span><span class="nt">min-width</span><span class="nd">:</span> <span class="o">@</span><span class="nt">screen-sm-min</span><span class="o">)</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="nd">:</span> <span class="o">@</span><span class="nt">screen-sm-max</span><span class="o">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 <span class="k">@media</span> <span class="o">(</span><span class="nt">min-width</span><span class="nd">:</span> <span class="o">@</span><span class="nt">screen-md-min</span><span class="o">)</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="nd">:</span> <span class="o">@</span><span class="nt">screen-md-max</span><span class="o">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 <span class="k">@media</span> <span class="o">(</span><span class="nt">min-width</span><span class="nd">:</span> <span class="o">@</span><span class="nt">screen-lg-min</span><span class="o">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span></code></pre></div>
+  <p><span class="label label-success">CUSTOMIZATION</span> Based on the premise that an application setting a min-width has no use for layouts below this width, GUS grid media queries dynamically depend on base min-width variable setting.  Therefore, only media queries restricted by a min-width above the base min-width setting are produced.</p>
 
   <h3 id="grid-options">Grid options</h3>
   <p>See how aspects of the Bootstrap grid system work across multiple devices with a handy table.</p>
@@ -773,7 +774,7 @@
 <span class="nt">&lt;h5&gt;</span>h5. Bootstrap heading <span class="nt">&lt;small&gt;</span>Secondary text<span class="nt">&lt;/small&gt;&lt;/h5&gt;</span>
 <span class="nt">&lt;h6&gt;</span>h6. Bootstrap heading <span class="nt">&lt;small&gt;</span>Secondary text<span class="nt">&lt;/small&gt;&lt;/h6&gt;</span></code></pre></div>
 
-<p>Create GUS, specialty heading with a <code>.heading-primary</code> class.
+<p><span class="label label-success">CUSTOMIZATION</span> Create GUS, specialty heading with a <code>.heading-primary</code> class.</p>
   <div class="bs-example bs-example-type">
     <table class="table">
       <tbody>
@@ -1387,7 +1388,7 @@
 <span class="nt">&lt;/table&gt;</span></code></pre></div>
 
 <h2 id="tables-striped">Contrasting header</h2>
-  <p>Use <code>.table-primary</code> to add contrasting <code>th</code> elements to any table heading within the <code>&lt;tbody&gt;</code>.</p>
+  <p><span class="label label-success">CUSTOMIZATION</span> Use <code>.table-primary</code> to add contrasting <code>th</code> elements to any table heading within the <code>&lt;tbody&gt;</code>.</p>
   <div class="bs-example">
     <table class="table table-primary">
       <thead>
@@ -2271,6 +2272,28 @@
   <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;glyphicon glyphicon-ok form-control-feedback&quot;</span><span class="nt">&gt;&lt;/span&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></div>
 
+  <h3>With drag and drop</h3>
+  <p><span class="label label-success">CUSTOMIZATION</span> Indicate validity of a drop target using <code>.drop-target</code>. Add validation class dynmically based on HTML drag and drop implementation.</p>
+    <div class="bs-example bs-example-images">
+      <div id="drop-container">
+        <label class="control-label">Drop target</label>
+        <div id="drop" ondragenter="dragEnter(event)" class="drop-target well well-lg">
+        </div>
+      </div>
+      <img ondragstart="dragStart(event)" class="img-rounded"
+        data-src="holder.js/140x140" class="img-rounded" alt="A generic square placeholder image with rounded corners">
+      <img ondragstart="dragStart(event)" class="img-rounded"
+        data-src="holder.js/140x140" class="img-rounded" alt="A generic square placeholder image with rounded corners">
+      <img ondragstart="dragStart(event)" class="img-rounded"
+        data-src="holder.js/140x140" class="img-rounded" alt="A generic square placeholder image with rounded corners">
+    </div>  
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;drop-container&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;drop&quot;</span> <span class="na">ondragenter=</span><span class="s">&quot;dragEnter(event)&quot;</span> <span class="na">class=</span><span class="s">&quot;well well-lg&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;...&quot;</span> <span class="na">alt=</span><span class="s">&quot;...&quot;</span> <span class="na">draggable=</span><span class="s">&quot;true&quot;</span> <span class="na">ondragstart=</span><span class="s">&quot;dragStart(event)&quot;</span> <span class="na">class=</span><span class="s">&quot;img-rounded&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;...&quot;</span> <span class="na">alt=</span><span class="s">&quot;...&quot;</span> <span class="na">class=</span><span class="s">&quot;img-rounded&quot;</span> <span class="na">ondragstart=</span><span class="s">&quot;dragStart(event)&quot;</span> <span class="na">class=</span><span class="s">&quot;img-rounded&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;...&quot;</span> <span class="na">alt=</span><span class="s">&quot;...&quot;</span> <span class="na">class=</span><span class="s">&quot;img-rounded&quot;</span> <span class="na">ondragstart=</span><span class="s">&quot;dragStart(event)&quot;</span> <span class="na">class=</span><span class="s">&quot;img-rounded&quot;</span><span class="nt">&gt;</span></code></pre></div>
 
   <h2 id="forms-control-sizes">Control sizing</h2>
   <p>Set heights using classes like <code>.input-lg</code>, and set widths using grid column classes like <code>.col-lg-*</code>.</p>
@@ -2383,6 +2406,7 @@
 
   <h2 id="buttons-options">Options</h2>
   <p>Use any of the available button classes to quickly create a styled button.</p>
+  <p><span class="label label-success">CUSTOMIZATION</span> Inverse button extra option to mirror dark theme.</p>
   <div class="bs-example">
     <button type="button" class="btn btn-default">Default</button>
     <button type="button" class="btn btn-inverse">Inverse</button>
@@ -3013,6 +3037,7 @@
 
   <h3 id="less-variables-colors">Colors</h3>
   <p>Easily make use of two color schemes: grayscale and semantic. Grayscale colors provide quick access to commonly used shades of black while semantic include various colors assigned to meaningful contextual values.</p>
+  <p><span class="label label-success">CUSTOMIZATION</span> Color pallete completely customized for GUS.</p>
   <div class="bs-example">
     <div class="color-block">
       <div class="color-swatch gray-darker"></div>
