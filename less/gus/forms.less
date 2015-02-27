@@ -26,3 +26,15 @@ select.form-control {
   -webkit-appearance: none;
   -webkit-border-radius: 0px;
 }
+
+
+// Drag and drop Feedback states
+.has-success {
+  .drag-drop-validation(@state-success-text; @state-success-text; @state-success-bg);
+}
+.has-warning {
+  .drag-drop-validation(@state-warning-text; @state-warning-text; @state-warning-bg);
+}
+.has-error {
+  .drag-drop-validation(@state-danger-text; @state-danger-text; @state-danger-bg);
+}
