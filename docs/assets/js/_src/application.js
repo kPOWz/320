@@ -101,7 +101,6 @@
       }, 3000)
     })
 
-
     // Config ZeroClipboard
     ZeroClipboard.config({
       moviePath: '/assets/flash/ZeroClipboard.swf',
@@ -158,3 +157,23 @@
   })
 
 }(jQuery)
+
+
+
+  //Drag+drop target valdaition state demo
+  var dragStart = function(event){
+      var imageurl = jQuery(event.target).attr('src');
+      var dt = event.dataTransfer;
+      // dt.mozSetDataAt("image/png", this, 0);
+      // dt.mozSetDataAt("application/x-moz-file", event.target, 0);
+      dt.setData("text/uri-list", imageurl);
+      dt.setData("text/plain", imageurl);
+  }
+  var dragEnter = function(event){
+      var targetClasses=["has-success", "has-warning", "has-error"];
+      var idx = Math.floor(Math.random() * (3 - 0)) + 0;
+      jQuery(event.target).parent().removeClass();
+      jQuery(event.target).parent().addClass(targetClasses[idx]);
+      return jQuery.inArray("text/plain", event.dataTransfer.types);
+  }
+
