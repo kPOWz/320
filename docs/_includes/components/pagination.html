@@ -6,7 +6,7 @@
   <h2 id="pagination-default">Default pagination</h2>
   <p>Simple pagination inspired by Rdio, great for apps and search results. The large block is hard to miss, easily scalable, and provides large click areas.</p>
   <div class="bs-example">
-    <ul class="pagination">
+    <ul class="pagination gus-pagination">
       <li><a href="#">&laquo;</a></li>
       <li><a href="#">1</a></li>
       <li><a href="#">2</a></li>
@@ -17,7 +17,7 @@
     </ul>
   </div>
 {% highlight html %}
-<ul class="pagination">
+<ul class="pagination gus-pagination">
   <li><a href="#">&laquo;</a></li>
   <li><a href="#">1</a></li>
   <li><a href="#">2</a></li>
@@ -31,7 +31,7 @@
   <h3>Disabled and active states</h3>
   <p>Links are customizable for different circumstances. Use <code>.disabled</code> for unclickable links and <code>.active</code> to indicate the current page.</p>
   <div class="bs-example">
-    <ul class="pagination">
+    <ul class="pagination gus-pagination">
       <li class="disabled"><a href="#">&laquo;</a></li>
       <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
       <li><a href="#">2</a></li>
@@ -42,7 +42,7 @@
    </ul>
   </div>
 {% highlight html %}
-<ul class="pagination">
+<ul class="pagination gus-pagination">
   <li class="disabled"><a href="#">&laquo;</a></li>
   <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
   ...
@@ -50,7 +50,7 @@
 {% endhighlight %}
   <p>You can optionally swap out active or disabled anchors for <code>&lt;span&gt;</code> to remove click functionality while retaining intended styles.</p>
 {% highlight html %}
-<ul class="pagination">
+<ul class="pagination gus-pagination">
   <li class="disabled"><span>&laquo;</span></li>
   <li class="active"><span>1 <span class="sr-only">(current)</span></span></li>
   ...
@@ -62,7 +62,7 @@
   <p>Fancy larger or smaller pagination? Add <code>.pagination-lg</code> or <code>.pagination-sm</code> for additional sizes.</p>
   <div class="bs-example">
     <div>
-      <ul class="pagination pagination-lg">
+      <ul class="pagination pagination-lg gus-pagination">
         <li><a href="#">&laquo;</a></li>
         <li><a href="#">1</a></li>
         <li><a href="#">2</a></li>
@@ -73,7 +73,7 @@
       </ul>
     </div>
     <div>
-      <ul class="pagination">
+      <ul class="pagination gus-pagination">
         <li><a href="#">&laquo;</a></li>
         <li><a href="#">1</a></li>
         <li><a href="#">2</a></li>
@@ -84,7 +84,7 @@
       </ul>
     </div>
     <div>
-      <ul class="pagination pagination-sm">
+      <ul class="pagination pagination-sm gus-pagination">
         <li><a href="#">&laquo;</a></li>
         <li><a href="#">1</a></li>
         <li><a href="#">2</a></li>
@@ -96,9 +96,9 @@
     </div>
   </div>
 {% highlight html %}
-<ul class="pagination pagination-lg">...</ul>
-<ul class="pagination">...</ul>
-<ul class="pagination pagination-sm">...</ul>
+<ul class="pagination pagination-lg gus-pagination">...</ul>
+<ul class="pagination gus-pagination">...</ul>
+<ul class="pagination pagination-sm gus-pagination">...</ul>
 {% endhighlight %}
 
 

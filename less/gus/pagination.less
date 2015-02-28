@@ -1,0 +1,18 @@
+
+//remove border radius from first & last child
+.gus-pagination {
+	> li {
+    &:first-child {
+      > a,
+      > span {
+        .border-left-radius(0);
+      }
+    }
+    &:last-child {
+      > a,
+      > span {
+        .border-right-radius(0);
+      }
+    }
+  }
+}

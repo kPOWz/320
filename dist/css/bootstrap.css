@@ -6357,6 +6357,16 @@ fieldset[disabled] .btn-inverse.text-primary.active {
 .inverse .navbar a {
   color: #fff;
 }
+.gus-pagination > li:first-child > a,
+.gus-pagination > li:first-child > span {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.gus-pagination > li:last-child > a,
+.gus-pagination > li:last-child > span {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
 form.center-block {
   display: block;
   margin-right: auto;
@@ -6375,6 +6385,9 @@ form.center-block *:-ms-input-placeholder {
   text-align: center;
 }
 form.center-block *::-webkit-input-placeholder {
+  text-align: center;
+}
+.center-text {
   text-align: center;
 }
 /*# sourceMappingURL=bootstrap.css.map */
