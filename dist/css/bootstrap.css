@@ -6172,7 +6172,6 @@ h6.heading-primary,
 /*
 * characteristics of inputs under an inverse layout
 * 
-*
 */
 .inverse input[type="text"],
 .inverse input[type="password"],
@@ -6366,7 +6365,7 @@ fieldset[disabled] .btn-inverse.text-primary.active {
 }
 .inverse .nav > li > a:hover,
 .inverse .nav > li > a:focus {
-  background-color: #293442;
+  background-color: #1a1f26;
 }
 .navbar-vertical .navbar-nav,
 .navbar-vertical .navbar-nav > li,
@@ -6386,7 +6385,7 @@ fieldset[disabled] .btn-inverse.text-primary.active {
   padding-left: 0;
 }
 .inverse nav li {
-  background-color: #465971;
+  background-color: #293442;
   border-bottom: 1px solid #1a1f26;
 }
 .inverse nav li:first-child {
