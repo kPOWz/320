@@ -8,10 +8,10 @@
 //## Gray and brand colors for use across customization of Bootstrap.
 
 @gray-base:              #293442;
-@gray-darker:            darken(@gray-base, 16%);
-@gray-dark:              #1A1F26;
-@gray:                   @gray-base;
-@gray-light:             lighten(@gray-base, 20%);
+@gray-darker:            #1A1F26; //darken(@gray-base, 16%);
+@gray-dark:              @gray-base; //#1A1F26;
+@gray:                   lighten(@gray-base, 15%);
+@gray-light:             lighten(@gray-base, 40%);
 @gray-lighter:           lighten(@gray-base, 70%);
 
 
@@ -21,7 +21,7 @@
 @brand-info:            #006699;
 @brand-warning:         #FFCC33;
 @brand-danger:          #FF3333;
-@brand-inverse:			@gray;
+@brand-inverse:			@gray-dark;
 
 
 //== Scaffolding
@@ -30,7 +30,7 @@
 @body-min-width:		@screen-sm-max;  //default : @screen-xs-min or lower
 //** Background color for `<body>`.
 @body-bg:               #fff;
-@body-bg-inverse:		@gray-dark;
+@body-bg-inverse:		@gray-darker;
 //** Global text color on `<body>`.
 @text-color:            @gray-dark;
 @text-color-inverse:	#fff;
@@ -649,6 +649,8 @@
 @component-offset-horizontal: 180px;
 //** Text muted color
 @text-muted:                  @gray-light;
+//** Text muted color
+@text-faint:                  @gray-lighter;
 //** Abbreviations and acronyms border color
 @abbr-border-color:           @gray-light;
 //** Headings small color
