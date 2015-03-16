@@ -6204,6 +6204,10 @@ h6.heading-primary,
   /* overrides TWBS default */
   vertical-align: middle;
 }
+.inverse .checkbox input[type='checkbox'] + label + label {
+  color: #293442;
+  /* real label is same shade as custom checkbox border */
+}
 .inverse .checkbox input[type='checkbox'] + label {
   width: 14px;
   height: 14px;
