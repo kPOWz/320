@@ -9,6 +9,12 @@ Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and
 
 To get started, check out <http://getbootstrap.com>!
 
+The GUS Style Guide is a fork of TWBS 3.2 with many changes for GUS powered by LESS. Some of these changes are basic and universally seen throughout GUS - like fonts and colors. Other changes are added, specfic controls like a paginator or specific behaviors like that for drag and drop.
+
+By following the Style Guide GUS stays consistent, easy to maintain, and requires less code.  Define any new UX/UI patterns developed for GUS in the style guide with an example. 
+
+http://kpowz.github.io/gus-bootstrap/
+
 ## Table of contents
 
  - [Quick start](#quick-start)
